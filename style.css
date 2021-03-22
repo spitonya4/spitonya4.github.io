@@ -1,0 +1,25 @@
+/* Style Sheet for Website */
+
+
+header {
+  color: #b3d9ff;
+  text-align: center;
+}
+/* Make the color of links clicked and unclicked the same*/
+a {
+  font-size: 24px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+a:link {
+  color: #6b2121;
+}
+
+a:visited {
+  color: #6b2121;
+}
+/* Test the background of the body as blue*/
+
+body {
+  background-color: #ffe5b8;
+}
