@@ -2,10 +2,15 @@
 
 
 header {
-  color: #b3d9ff;
+  color: #6b2121;
   text-align: center;
 }
-/* Make the color of links clicked and unclicked the same*/
+/* Make the color of links clicked and unclicked the #6b2121 same */
+/* Create a background for nav bar */
+.topNav {
+  background-color: #b38b6d;
+  overflow: hidden;
+}
 a {
   font-size: 24px;
   padding-left: 12px;
@@ -16,10 +21,10 @@ a:link {
 }
 
 a:visited {
-  color: #6b2121;
+  color: #faf0e6;
 }
 /* Test the background of the body as blue*/
 
 body {
-  background-color: #ffe5b8;
+  background-color: #faf0e6;
 }
