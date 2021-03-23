@@ -9,6 +9,9 @@ header {
 /* Create a background for nav bar */
 .topNav {
   background-color: #b38b6d;
+  float: center;
+  text-align: center;
+  padding: 14px 16px;
   overflow: hidden;
 }
 a {
@@ -27,4 +30,14 @@ a:visited {
 
 body {
   background-color: #faf0e6;
+}
+
+form {
+  text-align: center;
+}
+
+.message {
+  height: 300px;
+  width: 500px;
+  text-align: top-left;
 }

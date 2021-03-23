@@ -1,4 +1,6 @@
+<!-- This is the message page -->
 <!DOCTYPE html>
+
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
@@ -9,7 +11,7 @@
   </head>
   <header>
     <title class="title">Sam Pitonyak Website</title>
-    <h1> Sam Pitonyak Website</h1>
+    <h1>Leave A Message</h1>
     <nav class="topNav">
       <a href="index.html">Home</a>
       <a href="https://www.linkedin.com/in/sam-pitonyak-9a204218a/" target="_blank">LinkedIn</a>
@@ -18,13 +20,27 @@
       <a href="message.html">Message</a>
     </nav>
   </header>
-  <body>
-    <h1>This is a work in progress</h1>
 
-    <script src="script.js"></script>
+  <body class="messBody">
+    <form>
+      <br>
+      <br>
+      <label for="fname">First Name:</label>
+      <input type="text" id="fname" name="fname"><br><br>
+      <label for="lname">Last Name:</label>
+      <input type="text" id="lname" name="lname"><br><br>
+      <label for="company">Company:</label>
+      <input type="text" id="company" name="company"><br><br>
+      <label for="message">Message</label><br>
+      <textarea class="message"></textarea><br>
+
+    </form>
   </body>
 
   <footer>
+    <br>
+    <br>
     <h5>Created by Sam Pitonyak</h5>
   </footer>
+
 </html>
