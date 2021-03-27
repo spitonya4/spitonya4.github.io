@@ -42,3 +42,10 @@ form {
   width: 500px;
   text-align: top-left;
 }
+
+#coverPhoto {
+  width: 400px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
