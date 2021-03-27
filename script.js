@@ -24,11 +24,11 @@ function sendEmail(fname, lname, email, message) {
   Email.send({
     Host: "smtp.gmail.com",
     Username: "pitonyaks4@gmail.com",
-    Password: "iidihjwlnnhogygz",
+    Password: "yxnqbkyzesiuqaah",
     To: "pitonyaks4@gmail.com",
     From: "pitonyaks4@gmail.com",
     Subject: `${fname} ${lname} send you a message`,
-    Body: `Name: ${fname} ${lname} <br/> Email: ${email} <br/> Message ${message}`,
+    Body: `Name: ${fname} ${lname} <br/> Email: ${email} <br/> Message: ${message}`,
 
   }).then((message) => alert("Message Sent Successfully"))
 }
