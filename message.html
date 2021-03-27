@@ -22,19 +22,23 @@
   </header>
 
   <body class="messBody">
-    <form>
+    <form method="POST" class="message-form">
       <br>
       <br>
       <label for="fname">First Name:</label>
       <input type="text" id="fname" name="fname"><br><br>
       <label for="lname">Last Name:</label>
       <input type="text" id="lname" name="lname"><br><br>
-      <label for="company">Company:</label>
-      <input type="text" id="company" name="company"><br><br>
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email"><br><br>
       <label for="message">Message</label><br>
       <textarea class="message"></textarea><br>
+      <button type="submit">Submit</button>
 
     </form>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
   </body>
 
   <footer>
