@@ -7,10 +7,10 @@ function submitForm(e) {
   e.preventDefault();
 
   // Get the input values
-  let fname = document.querySelector("#fname").value;
-  let lname = document.querySelector("#lname").value;
-  let email = document.querySelector("#email").value;
-  let message = document.querySelector("#message").value;
+  let fname = document.querySelector(".fname").value;
+  let lname = document.querySelector(".lname").value;
+  let email = document.querySelector(".email").value;
+  let message = document.querySelector(".message").value;
 
   document.querySelector(".message-form").reset();
 
