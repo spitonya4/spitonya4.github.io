@@ -43,7 +43,7 @@ form {
   text-align: top-left;
 }
 
-#coverPhoto {
+.coverPhoto {
   width: 400px;
   height: 600px;
   margin-left: auto;
