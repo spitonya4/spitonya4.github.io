@@ -3,6 +3,16 @@
 
 // Listen for a submit
 document.querySelector(".message-form").addEventListener("submit", submitForm);
+
+// Make sure non of the fields are empty
+function emptyFields() {
+  var field;
+  field = document.getElementById('fname').value;
+  if (field == "") {
+    alert("Enter valid First Name");
+    return false;
+  };
+}
 function submitForm(e) {
   e.preventDefault();
 
@@ -17,6 +27,7 @@ function submitForm(e) {
   sendEmail(fname, lname, email, message);
 
 }
+
 
 
 // Send Email Info
